@@ -133,7 +133,7 @@ The speakers and the prompt for kokoro model were decided based on experimentati
 ### Next-Improvements/Further ideas:
 
 - Speech Model experimentation: The TTS model is the limitation of how natural this will sound. This probably be improved with a better pipeline and with the help of someone more knowledgable-PRs are welcome! :) 
-- LLM vs LLM Debate: Another approach of writing the podcast would be having two agents debate the topic of interest and write the podcast outline. Right now we use a single LLM (70B) to write the podcast outline
+- LLM vs LLM Debate: Another approach of writing the podcast would be having two agents debate the topic of interest and write the podcast outline. Right now we use a single LLM (24B) to write the podcast outline
 - Testing QwQ for writing the transcripts
 - Better prompting
 - Support for ingesting a website, audio file, YouTube links and more. Again, we welcome community PRs!

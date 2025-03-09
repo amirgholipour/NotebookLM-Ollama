@@ -50,6 +50,7 @@ idna==3.10
 ipykernel==6.29.5
 ipython==9.0.1
 ipython_pygments_lexers==1.1.1
+ipywidgets==8.1.5
 isodate==0.7.2
 isoduration==20.11.0
 jedi==0.19.2
@@ -68,6 +69,7 @@ jupyter_server_terminals==0.5.3
 jupyterlab==4.3.5
 jupyterlab_pygments==0.3.0
 jupyterlab_server==2.27.3
+jupyterlab_widgets==3.0.13
 kokoro==0.8.4
 langcodes==3.5.0
 language-tags==1.2.0
@@ -113,6 +115,7 @@ pydantic_core==2.27.2
 pydub==0.25.1
 Pygments==2.19.1
 pyparsing==3.2.1
+PyPDF2==3.0.1
 python-dateutil==2.9.0.post0
 python-json-logger==3.2.1
 PyYAML==6.0.2
@@ -165,4 +168,5 @@ weasel==0.4.1
 webcolors==24.11.1
 webencodings==0.5.1
 websocket-client==1.8.0
+widgetsnbextension==4.0.13
 wrapt==1.17.2
