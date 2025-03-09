@@ -41,10 +41,63 @@ Note: For our GPU Poor friends, you can also use the 8B and lower models for the
 python3.12 -m venv --upgsource notebooklm-venv/bin/activate   
 source notebooklm-venv/bin/activate     
  
-git clone https://github.ibm.com/Saeed-Kasmani/NotebookWatsonx
-cd llama-recipes/recipes/quickstart/NotebookWatsonx/
+git clone https://github.com/amirgholipour/NotebookLM-Ollama.git
+cd NotebookLM-Ollama
+```
+
+Install Voice model:
+Here are commands that you need to install and utulise Kokoro:
+
+* 1️⃣ Install kokoro
+```
+!pip install -q kokoro>=0.8.2 soundfile
+```
+* 2️⃣ Install espeak, used for English OOD fallback and some non-English languages
+```
+!apt-get -qq -y install espeak-ng > /dev/null 2>&1
+```
+or
+```
+brew install espeak-ng   # in MacOS
+```
+
+if you face any issue regarding to thinc as a dependency for packages like spaCy
+    * Install Python 3.12.6.
+    * Create and activate a virtual environment.
+    * Install thinc or spaCy within this environment.
+
+Install with Build Isolation Disabled: If you prefer to use Python 3.13, you can try installing thinc with build isolation disabled:
+
+    Ensure numpy is installed:
+```
+pip install numpy
+```
+Install thinc without build isolation:
+```
+    pip install --no-build-isolation thinc
+```
+
+Use Conda for Installation: Conda can handle dependencies more effectively on macOS:
+```
+    Create and activate a conda environment:
+```
+
+
+Install thinc using conda:
+```
+    conda install -c conda-forge thinc
+```
+For more detailed information on installing thinc, refer to the official installation guide. 
+If you continue to experience issues, consider consulting the spaCy GitHub discussions or Stack Overflow for community support. 
+
+Then run 
+
+```
 pip install -r requirements.txt --use-deprecated=legacy-resolver 
 ```
+
+
+install
 
 - Notebook 1:
 
