@@ -4,7 +4,7 @@
 
 [Listen to audio from the example here](./resources/_podcast.mp3)
 
-This is a guided series of tutorials/notebooks that can be taken as a reference or course to build a PDF to Podcast workflow. 
+This is a guided series of tutorials/notebooks that can be taken as a reference or course to build a PDF to Podcast workflow with ollama (https://ollama.com/download). 
 
 You will also learn from the experiments of using  Text to Speech Models.
 
@@ -129,8 +129,6 @@ Finally, we take the results from last notebook and convert them into a podcast.
 
 The speakers and the prompt for kokoro model were decided based on experimentation. Please try experimenting, you can find more details in the resources section.
 
-
-#### Note: Right now there is one issue: Parler needs transformers 4.43.3 or earlier and for steps 1 to 3 of the pipeline you need latest, so we just switch versions in the last notebook.
 
 ### Next-Improvements/Further ideas:
 
