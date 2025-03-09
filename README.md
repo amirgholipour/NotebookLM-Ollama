@@ -1,6 +1,6 @@
 ## NotebookOllama: An Open Source version of NotebookLM
 
-![NotebookOllama](./resources/Outline.jpg)
+![NotebookOllama](./resources/Outline.png)
 
 [Listen to audio from the example here](./resources/_podcast.mp3)
 
