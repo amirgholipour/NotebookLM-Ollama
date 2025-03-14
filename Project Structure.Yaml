@@ -13,7 +13,7 @@
 │   ├── data.pkl  # Generated data by podcast writer
 │   ├── podcast_ready_data.pkl  # Processed data for podcast generation  
 │   ├── _podcast.mp3  # Generated podcast audio file  
-│── 📜 Run_all.ipynb  # Main script to execute the workflow  
+│── 📜 Main.ipynb  # Main script to execute the workflow  
 │── 📜 pdf_processor.py  # Extracts and cleans text from a PDF  
 │── 📜 Step-1 PDF-Pre-Processing-Logic-Ollama.ipynb  # Notebook for extracting and cleaning text from a PDF   
 │── 📜 podcast_writer.py  # Generates a structured podcast script  
@@ -24,5 +24,5 @@
 │── 📜 Step-4-TTS-Workflow.ipynb  # Notebook for converting the script into audio  
 │── 📜 requirements.txt  # Required Python libraries  
 │── 📜 TTS_Notes.md  # Note regarding to TTS models  
-│── 📜 README_Runall.md  # Project documentation for Run_all.ipynb
+│── 📜 README_Runall.md  # Project documentation for main.ipynb
 │── 📜 README.md  # Project documentation  
